@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10rem;
+}
+
+header a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #0D0C22;
+}
+
+.links-container {
+    display: flex;
+    list-style: none;
+}
+
+
+
+.links-container li a:hover {
+    color: #6173E9;
+    font-weight: 900;
+    letter-spacing: 1.2px;
+}
+
+.btn {
+    background-color: #232340;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    transition: .2s all ease;
+    box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
+}
+
+.btn:hover {
+    letter-spacing: 1.2px;
+    background-color: #6173E9;
+    box-shadow: -2px 7px 21px -9px rgba(0, 0, 0, 0.75);
+}
+
+.links-container li a {
+    transition: .2s all ease;
+}
+
+.links-container li {
+    position: relative;
+    margin-left: 3rem;
+    padding: 20px;
+    /* border: 1px solid black; */
+}
+
+.counter {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #6173E9;
+    height: 25px;
+    width: 25px;
+    color: white;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#logo {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #6173E9;
+}
+
+.main-container {
+    width: 860px;
+    margin: 0 auto;
+    text-align: left;
+    background-image: url('../img/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 85vh;
+    margin-top: 20px;
+}
+
+.recent-work-btn {
+    margin-top: 45px;
+}
+
+.recent-work-btn a {
+    background-color: #6173E9;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    transition: .2s all ease;
+    box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
+    text-decoration: none;
+}
+
+.recent-work-btn a:hover {
+    letter-spacing: 1.2px;
+    background-color: #232340;
+    box-shadow: -2px 7px 21px -9px rgba(0, 0, 0, 0.75);
+}
+
+.title {
+    font-weight: bolder;
+    font-size: 6rem;
+    max-width: 45rem;
+    color: #0D0C22;
+}
+
+.sub-title {
+    max-width: 25rem;
+    color: rgb(83, 83, 83);
+}
